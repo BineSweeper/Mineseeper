@@ -1,0 +1,4 @@
+#ifndef MINESEEPER_GAME_H
+#define MINESEEPER_GAME_H
+
+#endif //MINESEEPER_GAME_H
