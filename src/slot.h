@@ -1,7 +1,3 @@
-//
-// Created by Shrish Deshpande on 11/11/22.
-//
-
 #ifndef MINESEEPER_SLOT_H
 #define MINESEEPER_SLOT_H
 
@@ -14,7 +10,7 @@ struct SlotStruct {
 };
 
 extern const struct SlotClass {
-    struct SlotStruct (*new)(bool isMine, int mineCount);
+    struct SlotStruct (*new)();
 } SlotStruct;
 
 #endif //MINESEEPER_SLOT_H
