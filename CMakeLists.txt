@@ -3,4 +3,4 @@ project(Mineseeper C)
 
 set(CMAKE_C_STANDARD 23)
 
-add_executable(Mineseeper src/main.c src/slot.h src/slot.c src/game.c src/game.h)
+add_executable(Mineseeper src/slot.h src/slot.c src/game.c src/game.h src/main.c)

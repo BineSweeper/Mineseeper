@@ -9,6 +9,10 @@ static struct Slot new() {
 }
 
 static char description(struct Slot *this) {
+    if (!this->isRevealed) {
+        return '*';
+    }
+
     if (this->isMine) {
         return 'X';
     } else if (this->mineCount == 0) {
